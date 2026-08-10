@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#bg1)"/>
+  
+  <!-- === CONTENEDOR PRINCIPAL (centrado verticalmente) === -->
+  <g transform="translate(0, 80)">
+    
+    <!-- === HEADER === -->
+    <rect x="30" y="0" width="540" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <circle cx="44" cy="14" r="4" fill="#ef4444" opacity="0.6"/>
+    <circle cx="58" cy="14" r="4" fill="#eab308" opacity="0.6"/>
+    <circle cx="72" cy="14" r="4" fill="#22c55e" opacity="0.6"/>
+    <text x="300" y="19" font-family="monospace" font-size="11" fill="#475569" text-anchor="middle">Dashboard Angular</text>
+    
+    <!-- === STATS CARDS === -->
+    <!-- Card 1 -->
+    <rect x="30" y="38" width="170" height="55" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="46" y="56" font-family="Arial" font-size="10" fill="#64748b">Usuarios</text>
+    <text x="46" y="78" font-family="Arial" font-size="20" font-weight="bold" fill="#f1f5f9">1,284</text>
+    <rect x="46" y="84" width="144" height="2" rx="1" fill="#334155"/>
+    <rect x="46" y="84" width="100" height="2" rx="1" fill="#22c55e"/>
+    
+    <!-- Card 2 -->
+    <rect x="215" y="38" width="170" height="55" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="231" y="56" font-family="Arial" font-size="10" fill="#64748b">Ventas</text>
+    <text x="231" y="78" font-family="Arial" font-size="20" font-weight="bold" fill="#f1f5f9">$45.2K</text>
+    <rect x="231" y="84" width="144" height="2" rx="1" fill="#334155"/>
+    <rect x="231" y="84" width="70" height="2" rx="1" fill="#3b82f6"/>
+    
+    <!-- Card 3 -->
+    <rect x="400" y="38" width="170" height="55" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="416" y="56" font-family="Arial" font-size="10" fill="#64748b">Pedidos</text>
+    <text x="416" y="78" font-family="Arial" font-size="20" font-weight="bold" fill="#f1f5f9">342</text>
+    <rect x="416" y="84" width="144" height="2" rx="1" fill="#334155"/>
+    <rect x="416" y="84" width="90" height="2" rx="1" fill="#8b5cf6"/>
+    
+    <!-- === CHART === -->
+    <rect x="30" y="105" width="540" height="90" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="46" y="124" font-family="Arial" font-size="10" fill="#64748b">📊 Ventas mensuales</text>
+    
+    <!-- Barras del chart -->
+    <rect x="42" y="152" width="16" height="25" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="68" y="145" width="16" height="32" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="94" y="138" width="16" height="39" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="120" y="142" width="16" height="35" rx="3" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="146" y="134" width="16" height="43" rx="3" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="172" y="136" width="16" height="41" rx="3" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="198" y="130" width="16" height="47" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="224" y="136" width="16" height="41" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="250" y="142" width="16" height="35" rx="3" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="276" y="138" width="16" height="39" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="302" y="145" width="16" height="32" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="328" y="152" width="16" height="25" rx="3" fill="#3b82f6" opacity="0.8"/>
+    
+    <!-- Eje X (meses) -->
+    <text x="50" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Ene</text>
+    <text x="76" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Feb</text>
+    <text x="102" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Mar</text>
+    <text x="128" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Abr</text>
+    <text x="154" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">May</text>
+    <text x="180" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Jun</text>
+    <text x="206" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Jul</text>
+    <text x="232" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Ago</text>
+    <text x="258" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Sep</text>
+    <text x="284" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Oct</text>
+    <text x="310" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Nov</text>
+    <text x="336" y="186" font-family="Arial" font-size="8" fill="#475569" text-anchor="middle">Dic</text>
+    
+    <!-- === FOOTER === -->
+    <text x="300" y="220" font-family="monospace" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="bold">
+      ⚡ Angular 17 + PrimeNG
+    </text>
+    <text x="300" y="238" font-family="Arial" font-size="10" fill="#475569" text-anchor="middle">
+      Dashboard en desarrollo 🚀
+    </text>
+    
+  </g>
+</svg>
