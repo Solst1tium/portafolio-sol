@@ -3,11 +3,11 @@
     <div class="max-w-300 mx-auto px-6">
       <h2 class="text-3xl font-bold mb-1 relative after:content-[''] after:block
                  after:w-15 after:h-0.75 after:bg-primary after:mt-2 after:rounded">
-        Habilidades Técnicas
+        Habilidades
       </h2>
       <p class="text-text-secondary mb-12 mt-4">Tecnologías y herramientas que utilizo</p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
           v-for="cat in skillCategories"
           :key="cat.title"

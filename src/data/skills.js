@@ -14,14 +14,30 @@ export const skillCategories = [
     ]
   },
   {
-    title: 'Back-End',
-    icon: '⚙️',
+    title: 'Plataformas Educativas',
+    icon: '🎓',
     skills: [
-      { name: 'Node.js', level: 'intermediate' },
-      { name: 'Express', level: 'intermediate' }
+      { name: 'Moodle (administración)', level: 'advanced' },
+      { name: 'BigBlueButton', level: 'advanced' },
+      { name: 'Microsoft Teams', level: 'advanced' },
+      { name: 'SIGECA', level: 'intermediate' },
+      { name: 'Captivate', level: 'intermediate' },
+      { name: 'iSpring', level: 'intermediate' }
     ]
   },
-  {
+
+   {
+    title: 'Gestión Académica',
+    icon: '📋',
+    skills: [
+      { name: 'Administración de cursos', level: 'advanced' },
+      { name: 'Seguimiento de estudiantes', level: 'advanced' },
+      { name: 'Reportería académica', level: 'advanced' },
+      { name: 'Diseño de evaluaciones', level: 'advanced' },
+      { name: 'Diseño instruccional', level: 'intermediate' }
+    ]
+  },
+    {
     title: 'Bases de Datos',
     icon: '🗄️',
     skills: [
@@ -31,6 +47,14 @@ export const skillCategories = [
     ]
   },
   {
+    title: 'Back-End',
+    icon: '⚙️',
+    skills: [
+      { name: 'Node.js', level: 'intermediate' },
+      { name: 'Express', level: 'intermediate' }
+    ]
+  },
+   {
     title: 'Herramientas',
     icon: '🛠️',
     skills: [
@@ -38,7 +62,20 @@ export const skillCategories = [
       { name: 'Bitbucket', level: 'intermediate' },
       { name: 'Postman', level: 'advanced' },
       { name: 'Metabase', level: 'intermediate' },
-      { name: 'VS Code', level: 'advanced' }
+      { name: 'VS Code', level: 'advanced' },
+      { name: 'Excel (reportería)', level: 'advanced' }
+    ]
+  },
+  {
+    title: 'Competencias',
+    icon: '🤝',
+    skills: [
+      { name: 'Trabajo en equipo', level: 'intermediate' },
+      { name: 'Comunicación efectiva', level: 'intermediate' },
+      { name: 'Atención a usuarios', level: 'intermediate' },
+      { name: 'Organización', level: 'intermediate' },
+      { name: 'Resolución de incidencias', level: 'intermediate' },
+      { name: 'Orientación al servicio', level: 'intermediate' }
     ]
   }
 ]

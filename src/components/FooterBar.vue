@@ -6,11 +6,11 @@
         <p class="text-text-muted text-xs mt-1">Hecho con 💙 y Vue.js</p>
       </div>
       <div class="flex gap-6">
-        <a href="https://github.com/tu-usuario" target="_blank"
+        <a href="https://github.com/Solst1tium" target="_blank"
            class="text-text-secondary hover:text-primary text-sm transition-colors">
           GitHub
         </a>
-        <a href="https://linkedin.com/in/tu-usuario" target="_blank"
+        <a href="https://www.linkedin.com/in/solange-l-26802b6b/" target="_blank"
            class="text-text-secondary hover:text-primary text-sm transition-colors">
           LinkedIn
         </a>
