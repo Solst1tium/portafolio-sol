@@ -33,7 +33,7 @@
             </p>
 
             <p class="text-text-secondary text-[1.05rem] leading-relaxed">
-              Disfruto especialmente los proyectos que combinan tecnología y educación,
+              Me interesan los proyectos que combinan tecnología y educación,
               donde puedo aportar tanto en lo técnico como en lo humano, siempre con
               foco en componentes reutilizables y código limpio.
             </p>
