@@ -34,7 +34,7 @@
         :href="project.demoUrl"
         target="_blank"
         rel="noopener"
-        class="flex-1 bg-primary text-white px-4 py-2.5 rounded-lg font-semibold text-sm
+        class="bg-primary text-white px-4 py-2.5 rounded-lg font-semibold text-sm
                text-center hover:bg-primary-dark transition-colors"
       >
         Ver Demo
@@ -43,7 +43,7 @@
         :href="project.repoUrl"
         target="_blank"
         rel="noopener"
-        class="flex-1 border-2 border-primary text-primary px-4 py-2.5 rounded-lg font-semibold
+        class=" border-2 border-primary text-primary px-4 py-2.5 rounded-lg font-semibold
                text-sm text-center hover:bg-primary hover:text-white transition-colors"
       >
         Código
