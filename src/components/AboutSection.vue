@@ -36,6 +36,8 @@
               Me interesan los proyectos que combinan tecnología y educación,
               donde puedo aportar tanto en lo técnico como en lo humano, siempre con
               foco en componentes reutilizables y código limpio.
+              Actualmente estoy ampliando mis conocimientos con los certificados de
+              <strong class="text-text-primary font-semibold">Google en Ciberseguridad e IT Support</strong>
             </p>
 
           </div>
@@ -46,36 +48,37 @@
                       hover:shadow-primary/30 transition-all duration-300">
               📄 Descargar CV
             </a>
-            <a href="#contacto" class="border border-border text-text-secondary px-6 py-3 rounded-lg
-                      font-semibold hover:border-primary hover:text-primary
-                      transition-all duration-300">
-              Hablemos →
-            </a>
+
           </div>
         </div>
 
-        <!-- Stats -->
-        <!-- Stats -->
-        <div class="grid grid-cols-2 gap-4">
-          <div class="bg-bg-card border border-border rounded-xl p-6 text-center">
-            <span class="block text-3xl font-extrabold text-primary mb-1">2</span>
-            <span class="text-text-secondary text-sm">Mundos: Dev + Educación</span>
-          </div>
-          <div class="bg-bg-card border border-border rounded-xl p-6 text-center">
-            <span class="block text-3xl font-extrabold text-primary mb-1">🎓</span>
-            <span class="text-text-secondary text-sm">Ingeniera en Computación</span>
-          </div>
 
-           <div class="bg-bg-card border border-border rounded-xl p-6 text-center">
-            <span class="block text-3xl font-extrabold text-primary mb-1">🎓</span>
-            <span class="text-text-secondary text-sm">Ingeniera en Computación</span>
-          </div>
+    <!-- Panel derecho: info única (no numérica) -->
+<div class="grid grid-cols-1 gap-4">
+  <div class="bg-bg-card border border-border rounded-xl p-6 text-center
+              transition-all duration-300 hover:-translate-y-1 hover:shadow-lg
+              hover:border-primary">
+    <span class="block text-3xl mb-2">🌐</span>
+    <span class="block text-text-primary font-semibold mb-1">Idiomas</span>
+    <span class="text-text-secondary text-sm">Español nativo · Inglés técnico</span>
+  </div>
 
-           <div class="bg-bg-card border border-border rounded-xl p-6 text-center">
-            <span class="block text-3xl font-extrabold text-primary mb-1">🎓</span>
-            <span class="text-text-secondary text-sm">Ingeniera en Computación</span>
-          </div>
-        </div>
+  <div class="bg-bg-card border border-border rounded-xl p-6 text-center
+              transition-all duration-300 hover:-translate-y-1 hover:shadow-lg
+              hover:border-primary">
+    <span class="block text-3xl mb-2">🎯</span>
+    <span class="block text-text-primary font-semibold mb-1">Enfoque</span>
+    <span class="text-text-secondary text-sm">Front-End + Educación Digital</span>
+  </div>
+
+  <div class="bg-bg-card border border-border rounded-xl p-6 text-center
+              transition-all duration-300 hover:-translate-y-1 hover:shadow-lg
+              hover:border-primary">
+    <span class="block text-3xl mb-2">🚀</span>
+    <span class="block text-text-primary font-semibold mb-1">Ampliando competencias</span>
+    <span class="text-text-secondary text-sm">Cursos Google en curso</span>
+  </div>
+</div>
 
 
       </div>

@@ -12,7 +12,7 @@
       </div>
 
       <div class="text-center mt-12">
-        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener"
+        <a href="https://github.com/Solst1tium" target="_blank" rel="noopener"
            class="inline-flex items-center gap-2 border border-border text-text-secondary
                   px-6 py-3 rounded-lg font-semibold hover:border-primary hover:text-primary
                   transition-all duration-300">

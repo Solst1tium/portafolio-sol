@@ -5,7 +5,7 @@
                  after:w-15 after:h-0.75 after:bg-primary after:mt-2 after:rounded">
         Experiencia Profesional
       </h2>
-      <p class="text-text-secondary mb-12 mt-4">Mi trayectoria en el desarrollo de software</p>
+      <p class="text-text-secondary mb-12 mt-4">Mi trayectoria en desarrollo y educación digital</p>
 
       <!-- Timeline -->
       <div class="relative pl-8 before:absolute before:left-2 before:top-0 before:bottom-0

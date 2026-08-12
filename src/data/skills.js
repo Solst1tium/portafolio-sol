@@ -33,6 +33,8 @@ export const skillCategories = [
       { name: 'Administración de cursos', level: 'advanced' },
       { name: 'Seguimiento de estudiantes', level: 'advanced' },
       { name: 'Reportería académica', level: 'advanced' },
+      { name: 'QA de contenidos educativos', level: 'advanced' }, 
+      { name: 'Revisión de material audiovisual', level: 'advanced' }, 
       { name: 'Diseño de evaluaciones', level: 'advanced' },
       { name: 'Diseño instruccional', level: 'intermediate' }
     ]
@@ -63,6 +65,7 @@ export const skillCategories = [
       { name: 'Postman', level: 'advanced' },
       { name: 'Metabase', level: 'intermediate' },
       { name: 'VS Code', level: 'advanced' },
+      { name: 'OBS Studio', level: 'intermediate' }, 
       { name: 'Excel (reportería)', level: 'advanced' }
     ]
   },
